@@ -1,0 +1,114 @@
+/* General reset */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: #f4f7fa;
+        color: #333;
+        padding: 0;
+    }
+    
+    /* Navigation bar */
+    nav {
+        background: #0077cc;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+        color: #ffd700;
+    }
+    
+    /* Header section */
+    header {
+        text-align: center;
+        margin: 40px 20px;
+    }
+    
+    header h1 {
+        font-size: 2.5rem;
+        color: #222;
+    }
+    
+    .highlight {
+        color: #0077cc;
+    }
+    
+    header p {
+        font-size: 1.2rem;
+        color: #555;
+    }
+    
+    /* Hobbies */
+    .hobbies {
+        margin: 40px 0;
+        padding: 20px;
+    }
+    
+    .hobbies h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #444;
+    }
+    
+    .hobby-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .hobby {
+        width: 250px;
+        text-align: center;
+        margin: 15px;
+    }
+    
+    .hobby img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    /* Dream */
+    .dream {
+        text-align: center;
+        margin: 50px auto;
+        max-width: 700px;
+        padding: 20px;
+    }
+    
+    .dream h2 {
+        margin-bottom: 15px;
+        color: #444;
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 15px;
+        background: #0077cc;
+        color: #fff;
+        border-radius: 8px 8px 0 0;
+    }
